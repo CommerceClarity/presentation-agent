@@ -1,0 +1,62 @@
+<!doctype html>
+<!--
+  Starting template. Do not copy it by hand: run
+    node deck-kit/prepare.js <client>_<type>_<YYYY-MM-DD>
+  which creates ~/Downloads/<folder>/ with this file as index.html, plus kit/ and brand/
+  next to it. Then replace the texts in square brackets, in the user's language.
+  Set lang to the user's language code (it, en, es...): the review buttons follow it.
+-->
+<html lang="[language code]">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[Client] · [Presentation type] · [YYYY-MM-DD]</title>
+<link rel="stylesheet" href="kit/tokens.default.css">
+<link rel="stylesheet" href="brand/tokens.css">
+<link rel="stylesheet" href="kit/deck.css">
+</head>
+<body>
+<div id="viewport"><div class="deck" id="deck">
+
+  <!-- 1. Cover: logo, client, title, date -->
+  <section class="slide cover">
+    <img class="mark" src="brand/[logo file for colored backgrounds, see brand.md]" alt="[Company]">
+    <div class="spacer"></div>
+    <div class="k">[Company] × [Client]</div>
+    <h1>[The message of the presentation in one sentence]</h1>
+    <p class="lead">[One line of context: project and period]</p>
+    <div class="cover-meta"><span>[Presentation type]</span><span>[DD month YYYY]</span></div>
+  </section>
+
+  <!-- 2. Inner slide: label, message title, content, footer -->
+  <section class="slide page">
+    <div class="topbar"><span class="eyebrow">[Chapter]</span></div>
+    <div class="head">
+      <h2 class="ttl">[The message of the slide, not the topic]</h2>
+      <p class="sub">[One or two lines explaining the title]</p>
+    </div>
+    <div class="content">
+      <div class="fill">
+        <div class="cols-3 aligned slots-3 grow">
+          <div class="card"><div class="k">[Label]</div><h3>[Title]</h3><p>[Text]</p></div>
+          <div class="card"><div class="k">[Label]</div><h3>[Title]</h3><p>[Text]</p></div>
+          <div class="card"><div class="k">[Label]</div><h3>[Title]</h3><p>[Text]</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>[Client] · [Presentation type]</span><span>02</span></div>
+  </section>
+
+  <!-- 3. Closing: logo and one sentence. Use it only if the presentation type's skill calls for it. -->
+  <section class="slide closing">
+    <img class="mark" src="brand/[logo file for colored backgrounds, see brand.md]" alt="[Company]">
+    <div class="spacer"></div>
+    <div class="k">[Next meeting]</div>
+    <h2>[The one thing to remember, in one sentence]</h2>
+    <p class="lead">[First Last · role · contact]</p>
+  </section>
+
+</div></div>
+<script src="kit/deck.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "presentation-agent-kit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Layout check and PDF export for the presentations: npm run check, then npm run pdf.",
+  "scripts": {
+    "check": "node check-layout.js",
+    "pdf": "node export-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
+  }
+}
