@@ -54,7 +54,7 @@ It works in your language: write to it in Italian, Spanish or English, and it an
 
 ### 1. Download the repo and do the onboarding
 
-On GitHub press **Code**, then **Download ZIP**, and unzip the folder: it is called `presentation-agent-main`. With git:
+**[Download the ZIP](https://github.com/CommerceClarity/presentation-agent/archive/refs/heads/main.zip)** and unzip the folder: it is called `presentation-agent-main`. With git:
 
 ```bash
 git clone https://github.com/CommerceClarity/presentation-agent.git
